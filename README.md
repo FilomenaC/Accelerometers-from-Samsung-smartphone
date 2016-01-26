@@ -7,9 +7,9 @@ This project contains the output of the Coursera course Getting and Cleaning Dat
 Refer to the CodeBook.md (insert hyperlynk) file
 
 ## Files
-* *CodeBook.md*, teh code book with instructions and process
+* *CodeBook.md*, the code book with instructions and process
 * *run_download.R*, the R file used to download the underlying data 
-* *run_analysis.r*, the R script delivering the five project requirement steps
+* *run_analysis.R*, the R script delivering the five project requirement steps
 * *final.RData*, the first tidy data set
 * *means.txt*,second independent tidy data set with the average, in a tab-delimited text file
 * *means.RData*, the second independent tidy data set with the average, in RData format
