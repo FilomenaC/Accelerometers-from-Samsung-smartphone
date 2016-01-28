@@ -13,6 +13,4 @@ Refer to the CodeBook.md (insert hyperlynk) file for more detailed instructions.
 ## Files
 * *CodeBook.md*, the code book with instructions and process
 * *run_analysis.R*, the R script delivering the five project requirement steps
-* *final_df.RData*, the first tidy data set with descriptive variable names and mean and std variable measuraments
-* *means.txt*,second independent tidy data set with the average, in a tab-delimited text file
-* *means.RData*, the second independent tidy data set with the average, in RData format (TBC
+* *output_tidy_data*, the requested tidy data set with descriptive variable names, mean and std variable measurament and average of each variable for each activity and each subject.
