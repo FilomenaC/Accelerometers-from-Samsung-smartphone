@@ -1,6 +1,6 @@
-# Accelerometers Smartphone Project - Filomena Ciccarelli
+# Accelerometers Smartphone Project
 
-##Getting and Cleaning Data Course Project
+##Getting and Cleaning Data Course Project - Filomena Ciccarelli
 This project contains the output of the Coursera course Getting and Cleaning Data assignment.
 
 ##Instructions
