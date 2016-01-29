@@ -52,7 +52,7 @@ The following files are available for the train and test data. Their description
 
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
 
->NOTE: The Inertial Signals data sets were outside the scope of the project requirement and hence ignored in the tidy data process.
+>**NOTE: The Inertial Signals data sets were outside the scope of the project requirement and hence ignored in the tidy data process.**
 
 ###Variables
 =========================================
@@ -65,9 +65,9 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
+*tBodyAcc-XYZ
+*tGravityAcc-XYZ
+*tBodyAccJerk-XYZ
 tBodyGyro-XYZ
 tBodyGyroJerk-XYZ
 tBodyAccMag
@@ -85,8 +85,8 @@ fBodyGyroJerkMag
 
 The set of variables that were estimated from these signals are: 
 
-mean(): Mean value
-std(): Standard deviation
+-mean(): Mean value
+-std(): Standard deviation
 mad(): Median absolute deviation 
 max(): Largest value in array
 min(): Smallest value in array
@@ -116,7 +116,7 @@ The complete list of variables of each feature vector is available in 'features.
 
 
 ## Data transformations
-=========================================
+
 In this section we explain the transformations carried out on the data project. Below are the numbered steps as noted in the comment lines of the *run_analysis.R* script.
 
 1. Read the data. Note the Inertial Signals data sets were not imported.
