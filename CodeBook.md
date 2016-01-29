@@ -1,7 +1,7 @@
 #CodeBook
 #### Filomena Ciccarelli
 The file describes all the steps undertaken to make the results presented in the *output_tidy_data.txt* data set replicable.
-##How to get the data
+##How to get the data for the project
 The first step is to download the correct underlying data set, available here (in a .zip format):
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
@@ -14,7 +14,7 @@ Each subject (aged between 19-40) performed six activities (WALKING, WALKING_UPS
 
 The sensor signals (accelerometer -acc in variable names- and gyroscope -gyro in variable names) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. See 'features_info.txt' for more details. 
 
-For each record it is provided:
+###For each record it is provided:
 ======================================
 
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
@@ -23,7 +23,7 @@ For each record it is provided:
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
 
-The dataset includes the following files:
+###The dataset includes the following files:
 =========================================
 
 - 'README.txt'
@@ -55,7 +55,7 @@ The following files are available for the train and test data. Their description
 >The Inertial Signals data sets were not within the scope of this project and hence ignored.
 
 ##Variables
-Feature Selection 
+###Feature Selection 
 =================
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
@@ -113,11 +113,12 @@ tBodyAccJerkMean
 tBodyGyroMean
 tBodyGyroJerkMean
 
-> As per assignment instructions, only the measuraments on the mean() and std() were extracted 
-
 The complete list of variables of each feature vector is available in 'features.txt'
-## Data Processing Steps
-In this section 
+> As per assignment instructions, only the measuraments on the mean() and std() were extracted. These are in the tidy data variables section below. 
+
+
+## Data transformations
+In this section we explain the transformations carried out on the data project. The steps below are the numbered steps delineated in the comment lines of the *run_analysis.R* script.
 
 ##Tidy data variables
 ######> str(output_tidy_data)
