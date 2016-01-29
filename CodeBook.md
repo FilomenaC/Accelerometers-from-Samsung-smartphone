@@ -118,10 +118,19 @@ The complete list of variables of each feature vector is available in 'features.
 
 
 ## Data transformations
-In this section we explain the transformations carried out on the data project. The steps below are the numbered steps delineated in the comment lines of the *run_analysis.R* script.
+In this section we explain the transformations carried out on the data project. Below are the numbered steps as noted in the comment lines of the *run_analysis.R* script.
+1. Read the data. Note the Inertial Signals data sets were not imported.
+2. The *features* variable names are extracted from data table and text/character manipulation is carried out with gsub().
+The same is applied to the *labels* variable names
+3. x_test and x_train data observation columns are named after *features* columnn names. Activity labels are alos mapped onto y-test and y_train column names. Subject_test and subjest_train column varaiable were also named with a more descriptive varaiable name
+4. Train and Test data sets are merged in a single data frame using rbind(). The *merged_df* has 10299 rows and 563 columns 
+5. A filter (*mean_std_filter*)is applied to the above data frame to select only the measuraments on the mean() and std(). *filtered_df* is the subset data set. Columns *subject* and *activity* are cbind() it. The resulting data frame is *final_df*
+6. Group_by *subject* and *activity* created *grouped_data*. The output tidy data is obtained applying summarise_each() applying the function mean() as requested. Dim(output_tidy_data): 180x88.
+7. Export the final tidy data frame and save it as *output_tidy_data.txt* file
 
 ##Tidy data variables
-######> str(output_tidy_data)
+
+#####> str(output_tidy_data)
 
 Nr | Variable | properties
 --------|------------ | -------------
