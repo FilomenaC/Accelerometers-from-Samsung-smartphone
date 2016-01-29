@@ -123,11 +123,11 @@ In this section we explain the transformations carried out on the data project. 
 1. Read the data. The Inertial Signals data sets were not imported.
 2. The *features* variable names are extracted from data table and text/character manipulation is carried out with gsub().
 The same is applied to the *labels* variable names
-3. x_test and x_train data observation columns are named after *features* columnn names. Activity labels are alos mapped onto y-test and y_train column names. Subject_test and subjest_train column varaiable were also named with a more descriptive varaiable name
+3. x_test and x_train data observation columns are named after *features* columnn names. Activity labels are also mapped onto y-test and y_train column names. Subject_test and subjest_train column varaiable were also named with a more descriptive variable name
 4. Train and Test data sets are merged in a single data frame using rbind(). The *merged_df* has 10299 rows and 563 columns 
-5. A filter (*mean_std_filter*) is applied to the above data frame to select only the measuraments on the mean() and std(). *filtered_df* is the subset data set. Columns *subject* and *activity* are cbind() to it. The resulting data frame is *final_df*
-6. Group_by *subject* and *activity* created *grouped_data*. The output tidy data is obtained applying summarise_each() applying the function mean() as requested. Dim(output_tidy_data): 180x88.
-7. Export the final tidy data frame and save it as *output_tidy_data.txt* file
+5. A filter (*mean_std_filter*) is applied to the above data frame to select only the measuraments on the mean() and std(). The filter is used to subset the data, the resulting data frame is named *filtered_df*. Columns *subject* and *activity* are cbind() to this data frame. The resulting data set is called *final_df*
+6. A group_by function on *subject* and *activity* is used to create *grouped_data*. The output tidy data is obtained applying summarise_each() with function = mean() as requested. Dim(output_tidy_data): 180x88.
+7. Export the final tidy data frame and save it as *output_tidy_data.txt* file.
 
 
 
