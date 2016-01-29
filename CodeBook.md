@@ -113,7 +113,7 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 
 The complete list of variables of each feature vector is available in 'features.txt'
 
-**NOTE:As per assignment instructions, only the measuraments on the mean() and std() were extracted. These are in the tidy data variables section below.**
+**NOTE:As per assignment instructions, only the measuraments on the mean() and std() were extracted. These are listed in the tidy data variables section below.**
 
 
 ## Data transformations
