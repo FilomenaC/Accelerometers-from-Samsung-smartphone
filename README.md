@@ -1,7 +1,7 @@
 # Accelerometers Smartphone Project
 
 ##Getting and Cleaning Data Course Project - Filomena Ciccarelli
-This project contains the output of the Coursera course Getting and Cleaning Data assignment.
+This project contains the outputs of the Coursera course Getting and Cleaning Data assignment.
 
 ##Instructions
 The raw data for the project is here:
