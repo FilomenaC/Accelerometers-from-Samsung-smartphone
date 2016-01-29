@@ -1,4 +1,4 @@
-# R script created as part of the Getting and Cleaning (Coursera) course data project.
+# R script created as part of the Getting and Cleaning (Coursera) course data project. Filomena Ciccarelli
 # The run_analysis.R script executes the end-to-end tidy data analysis
 # on the Human Activity Recognition Using Smartphones Data Set.
 # For more information see README.md and CodeBook.md files
