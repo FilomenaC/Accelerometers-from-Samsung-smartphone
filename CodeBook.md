@@ -120,7 +120,7 @@ The complete list of variables of each feature vector is available in 'features.
 
 In this section we explain the transformations carried out on the data project. Below are the numbered steps as noted in the comment lines of the *run_analysis.R* script.
 
-1. Read the data. Note the Inertial Signals data sets were not imported.
+1. Read the data. The Inertial Signals data sets were not imported.
 2. The *features* variable names are extracted from data table and text/character manipulation is carried out with gsub().
 The same is applied to the *labels* variable names
 3. x_test and x_train data observation columns are named after *features* columnn names. Activity labels are alos mapped onto y-test and y_train column names. Subject_test and subjest_train column varaiable were also named with a more descriptive varaiable name
