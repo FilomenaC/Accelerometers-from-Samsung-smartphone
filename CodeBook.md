@@ -112,7 +112,7 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 - tBodyGyroJerkMean
 
 The complete list of variables of each feature vector is available in 'features.txt'
-> **As per assignment instructions, only the measuraments on the mean() and std() were extracted. These are in the tidy data variables section below. **
+>**As per assignment instructions, only the measuraments on the mean() and std() were extracted. These are in the tidy data variables section below. **
 
 
 ## Data transformations
@@ -129,12 +129,11 @@ The same is applied to the *labels* variable names
 7. Export the final tidy data frame and save it as *output_tidy_data.txt* file
 
 
-======================================
-##Tidy data variables
 
-#####> str(output_tidy_data)
+##Tidy data variables
 - Features are normalized and bounded within [-1,1].
 
+#####> str(output_tidy_data)
 
 Nr | Variable | properties
 --------|------------ | -------------
