@@ -3,8 +3,8 @@
 # For more information see README.md and CodeBook.md files
 
 
-#Step 1 
-#1.1.Read the data with read.table()
+# Step 1 
+# 1.1.Read the data with read.table()
 
 x_test<-read.table("test/X_test.txt")
 y_test<-read.table("test/y_test.txt")
@@ -16,9 +16,9 @@ subject_test<-read.table("test/subject_test.txt")
 subject_train<-read.table("train/subject_train.txt")
 
 
-#Step 2
-#2.1 Extract variable names from features (as vector) and create more descriptive variable names with gsub()
-#2.2 Create more descriptive variable names for labels
+# Step 2
+# 2.1 Extract variable names from features (as vector) and create more descriptive variable names with gsub()
+# 2.2 Create more descriptive variable names for labels
 
 features<-t(features[2])
 features<-gsub("-","",features)
