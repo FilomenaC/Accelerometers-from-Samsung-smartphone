@@ -8,7 +8,7 @@ The raw data for the project is here:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-Refer to the CodeBook.md (insert hyperlynk) file for more detailed instructions.
+Refer to the CodeBook.md (https://github.com/FilomenaC/Accelerometers-from-the-Samsung-smartphone/blob/master/CodeBook.md) file for more detailed instructions.
 
 ## Files
 * *CodeBook.md*, the code book with instructions and process
